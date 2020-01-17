@@ -1,0 +1,385 @@
+import { Head, Image, Appear, Notes, Embed,  } from "mdx-deck";
+
+import { themes } from "mdx-deck";
+
+export const theme = themes.code;
+
+<Head>
+  <title>Visual Studio Code Shortcuts</title>
+</Head>
+
+---
+
+<h1 style={{width: '90%', textAlign: 'center'}}>Visual Studio Code Shortcuts</h1>
+
+<p style={{width: '90%', textAlign: 'center'}}>
+  A translation of the Visual Studio Code Keyboard Shortcuts for macOS Cheat
+  Sheet
+</p>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Why This Translation?</h3>
+
+<p style={{width: '95%', textAlign: 'center'}}>When I first came across the VSCode shortcut cheat sheet, I couldn't make out any of their <code>gobbledy-gook</code>. I'm referring to the shortcut symbols that appeared everywhere on the sheet with no explanation of what each represented.</p>
+
+---
+
+<p style={{width: '95%', textAlign: 'center'}}>I put together a translation of all the shortcuts represented in the VSCode cheat sheet. Enjoy!</p>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>General</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Shift + Command + P || F1 -</span> Show Command Palette<br/>
+    <span style={{color: '#cc0033'}}>Command + P -</span> Quick Open, Go to File<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + N -</span> New Window/Instance<br/>
+    <span style={{color: '#cc0033'}}>Command + W -</span> Close Window/Instance<br/>
+    <span style={{color: '#cc0033'}}>Command + , -</span> User Settings<br/>
+    <span style={{color: '#cc0033'}}>Command + K Command + S -</span> Keyboard Shortcuts
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Basic Editing</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + X -</span> cut line (empty selection)<br/>
+    <span style={{color: '#cc0033'}}>Command + C -</span> Copy Line (empty selection)<br/>
+    <span style={{color: '#cc0033'}}>Option + Down Arrow/Option + Up Arrow -</span> Move line down/up<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option + Down Arrow/Shift + Option + Up Arrow -</span> Copy line down/up<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + K -</span> Delete line<br/>
+    <span style={{color: '#cc0033'}}>Command + Enter/ Shift + Command + Enter -</span> Insert line down/up<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Basic Editing Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Shift + Command + \ -</span> Jump to matching bracket<br/>
+    <span style={{color: '#cc0033'}}>Command + ]/Command + [ -</span> Indent/Outdent line<br/>
+    <span style={{color: '#cc0033'}}>Home / End -</span> Go to beginning/end of line.<br/>
+    <span style={{color: '#cc0033'}}>Command + Up Arrow -</span> go to the beginning of the file.<br/>
+    <span style={{color: '#cc0033'}}>Command + Down Arrow -</span> go to the end of the file.<br/>
+    <span style={{color: '#cc0033'}}>Option + Command + [ / Option + Command + ] -</span> Fold/Unfold region.<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Basic Editing Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + K + Command + [ / Command + K + Command + ] -</span> Fold/Unfold all sub-regions.<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + 0 / Command + K + Command + J -</span> Fold/Unfold all regions.<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + C -</span> Add line comment.<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + U -</span> Remove line comment.<br/>
+    <span style={{color: '#cc0033'}}>Command + / -</span> Toggle line comment.<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option + A -</span> Toggle block comment.<br/>
+    <span style={{color: '#cc0033'}}>Option + Z -</span> Toggle word wrap
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Multi-Cursor and Selection</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Option + click -</span> Insert cursor.<br/>
+    <span style={{color: '#cc0033'}}>Option + Command + Up Arrow -</span> Insert cursor above.<br/>
+    <span style={{color: '#cc0033'}}>Option + Comment + Down Arrow -</span> Insert cursor below.<br/>
+    <span style={{color: '#cc0033'}}>Command + U -</span> Undo last cursor operation.<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option -</span> Insert cursor at end of each line selected.<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Multi-Cursor and Selection Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + L -</span> Select current line.<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + L -</span> Select all occurrences of current selection.<br/>
+    <span style={{color: '#cc0033'}}>Command + F2 -</span> Select all occurrences of current word.<br/>
+    <span style={{color: '#cc0033'}}>Control + Shift + Command + Right Arrow/Left Arrow -</span> Expand/Shrink selection.<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option + Drag Mouse -</span> Column (box) selection.<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Multi-Cursor and Selection Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Shift + Option + Command + Up Arrow/Down Arrow -</span> Column (box) selection up/down<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option + Command + Left Arrow/Right Arrow -</span> Column (box) selection left/right<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option + Command + PgUp -</span> Column (box) selection page up.<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option + Command + PgDn -</span> Column (box) selection page down.<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Search and Replace</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + F -</span> Find<br/>
+    <span style={{color: '#cc0033'}}>Option + Command + F -</span> Replace<br/>
+    <span style={{color: '#cc0033'}}>Command + G/Shift + Command + G -</span> Find next/previous.<br/>
+    <span style={{color: '#cc0033'}}>Option + Enter -</span> Select all occurrences of Find match<br/>
+    <span style={{color: '#cc0033'}}>Command + D -</span> Add selection to next Find match<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + D -</span> Move last selection to next Find match<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Rich Languages Editing</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Control + Space -</span> Trigger suggestion<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + Space -</span> Trigger parameter hints<br/>
+    <span style={{color: '#cc0033'}}>Shift + Option + F -</span> Format document<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + F -</span> Format selection<br/>
+    <span style={{color: '#cc0033'}}>F12 -</span> Go to definition<br/>
+    <span style={{color: '#cc0033'}}>Command + K + F12 -</span> Open definition in the side<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Rich Languages Editing Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command -</span> Quick Fix<br/>
+    <span style={{color: '#cc0033'}}>Shift F12 -</span> Show References<br/>
+    <span style={{color: '#cc0033'}}>F2 -</span> Rename Symbol<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + X -</span> Trim trailing whitespace<br/>
+    <span style={{color: '#cc0033'}}>Command + K + M -</span> Change file language
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Navigation</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + T -</span> Show all Symbols<br/>
+    <span style={{color: '#cc0033'}}>Control + G -</span> Got to Line<br/>
+    <span style={{color: '#cc0033'}}>Command + P -</span> Go to file<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + O -</span> Go to Symbol<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Navigation Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Shift + Command + M -</span> Show Problems panel<br/>
+    <span style={{color: '#cc0033'}}>F8/Shift + F8 -</span> Go to next/previous error or warning<br/>
+    <span style={{color: '#cc0033'}}>Control + hyphen/Control + Shift + hyphen -</span> Go back/go forward<br/>
+    <span style={{color: '#cc0033'}}>Control + Shift + M -</span> Toggle Tab moves focus<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Editor Management</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + W -</span> Close editor<br/>
+    <span style={{color: '#cc0033'}}>Command + K + F -</span> Close Folder<br/>
+    <span style={{color: '#cc0033'}}>Command + \ -</span> Split editor<br/>
+    <span style={{color: '#cc0033'}}>Command + 1 / Command + 2 / Command + 3 -</span> Focus into 1st, 2nd, 3rd editor group.
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Editor Management Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + K + Command + Left Arrow / Command + K + Command + Right Arrow -</span> focus into previous/next editor group.<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Shift + Command + Left Arrow / Command + K + Shift + Command + Right Arrow -</span> Move editor left/right<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Left Arrow / Command + K + Right Arrow -</span> Move active editor group<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>File Management</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Command + N -</span> New file<br/>
+    <span style={{color: '#cc0033'}}>Command + O -</span> Open file<br/>
+    <span style={{color: '#cc0033'}}>Command + S -</span> Save<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + S -</span> Save as<br/>
+    <span style={{color: '#cc0033'}}>Option + Command + S -</span> Save All<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + W -</span> Close All<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>File Management Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Shift + Command + T -</span> Reopen closed editor<br />
+    <span style={{color: '#cc0033'}}>Command + K + Enter -</span> Keep preview mode editor open<br/>
+    <span style={{color: '#cc0033'}}>Control + Tab / Control + Shift + Tab -</span> Open next/previous<br/>
+    <span style={{color: '#cc0033'}}>Command + K + P -</span> Copy path of active file<br/>
+    <span style={{color: '#cc0033'}}>Command + K + R -</span> Reveal active file in Finder<br/>
+    <span style={{color: '#cc0033'}}>Command + K + O -</span> Show active file in new window/instance
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Display</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Control + Command + F -</span> Toggle full screen<br/>
+    <span style={{color: '#cc0033'}}>Option + Command + 0 -</span> Toggle editor layout (horizontal/vertical)<br/>
+    <span style={{color: '#cc0033'}}>Command + Equal/Shift + Command + Hyphen -</span> Zoom in/out<br/>
+    <span style={{color: '#cc0033'}}>Command + B -</span> Toggle Sidebar visibility<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + E -</span> Show Explorer/Toggle focus<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Display Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Shift + Command + F -</span> Show Search<br/>
+    <span style={{color: '#cc0033'}}>Control + Shift + G -</span> Show Source Control<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + D -</span> Show Debug<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + X -</span> Show Extensions<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + H -</span> Replace in files<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Display Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Shift + Command + J -</span> Toggle Search details<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + U -</span> Show Output Panel<br/>
+    <span style={{color: '#cc0033'}}>Shift + Command + V -</span> Open Markdown preview<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Z -</span> Zen Mode (Esc Esc to exit)<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Debug</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>F9 -</span> Toggle Breakpoint<br/>
+    <span style={{color: '#cc0033'}}>F5 -</span> Start/Continue<br/>
+    <span style={{color: '#cc0033'}}>F11/Shift + F11 -</span>Step into/out<br/>
+    <span style={{color: '#cc0033'}}>F10 -</span> Step over<br/>
+    <span style={{color: '#cc0033'}}>Shift + F5 -</span> Stop<br/>
+    <span style={{color: '#cc0033'}}>Command + K + Command + I -</span> Show hover
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Integrated Terminal</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Control + backtick -</span> Show Integrated Terminal<br/>
+    <span style={{color: '#cc0033'}}>Control + Shift + backtick -</span> Create new Terminal<br/>
+    <span style={{color: '#cc0033'}}>Command + C -</span> Copy selection<br/>
+    <span style={{color: '#cc0033'}}>Command + Up Arrow / Down Arrow -</span> Scroll up/down<br/>
+    <span style={{color: '#cc0033'}}>PgUp/PgDn -</span> Scroll page up/down<br/>
+    <span style={{color: '#cc0033'}}>Command + Home / End -</span> scroll to top/bottom<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Bonus: Command Key Translations (Mac)</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>⌘ -</span> Command Key<br/>
+    <span style={{color: '#cc0033'}}>⌥ -</span> Option Key<br/>
+    <span style={{color: '#cc0033'}}>⌃ -</span> Control Key<br/>
+    <span style={{color: '#cc0033'}}>⇧ -</span> Shift Key<br/>
+    <span style={{color: '#cc0033'}}>⇪ -</span> Caps Lock Key<br/>
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Bonus: Command Key Translations (Mac) Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>⌫ -</span> Backspace/Delete Key<br/>
+    <span style={{color: '#cc0033'}}>⌦ -</span> Forward/Delete Key (fn + backspace)<br/>
+    <span style={{color: '#cc0033'}}>⎋ -</span> Escape Key<br/>
+    <span style={{color: '#cc0033'}}>← -</span> Left Arrow Key<br/>
+    <span style={{color: '#cc0033'}}>→ -</span> Right Arrow Key<br/>
+    <span style={{color: '#cc0033'}}>↑ -</span> Up Arrow Key
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Bonus: Command Key Translations (Mac) Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>↓ -</span> Down Arrow Key<br/>
+    <span style={{color: '#cc0033'}}>⇥ -</span> Tab Key<br/>
+    <span style={{color: '#cc0033'}}>⇤ -</span> Back Tab Key (Shaft + Tab)<br/>
+    <span style={{color: '#cc0033'}}>↩ -</span> Return Key<br/>
+    <span style={{color: '#cc0033'}}>⌤ -</span> Enter Key<br/>
+    <span style={{color: '#cc0033'}}>⇞ -</span> Page Up Key
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Bonus: Command Key Translations (Mac) Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>⇟ -</span> Page Down Key<br/>
+    <span style={{color: '#cc0033'}}>↖ -</span> Home<br/>
+    <span style={{color: '#cc0033'}}>↘ -</span> End<br/>
+    <span style={{color: '#cc0033'}}>⌧ -</span> Clear<br/>
+    <span style={{color: '#cc0033'}}>␣ -</span> Space<br/>
+    <span style={{color: '#cc0033'}}>⏏ -</span> Eject
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Bonus: Command Key Translations (Mac) Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>fn -</span> Function Key<br/>
+    <span style={{color: '#cc0033'}}>§ -</span> Section Mark<br/>
+</code>
+
+---
+
+<h5 style={{width: '95%', textAlign: 'center'}}>If You Don't Have <code style={{color: '#ff357c'}}>Home</code> and <code style={{color: '#ff357c'}}>End</code> Keys (I don't), Then You Can Do the Following:</h5>
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+    <span style={{color: '#cc0033'}}>Fn + left arrow -</span> jump to top of the page<br/>
+    <span style={{color: '#cc0033'}}>Fn + right arrow -</span> jump to end of the page
+    <span style={{color: '#cc0033'}}>Command + down arrow key -</span> jump to end of page
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Bonus: Command Key Translations (Mac) Contd</h3>
+
+<code style={{fontSize: '2rem', width: '95%', background: '#fff', padding: '5px 10px'}}>
+<span style={{color: '#cc0033'}}>Command + up arrow key -</span> jump to top of page
+</code>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Related Links</h3>
+
+<ul style={{fontSize: '2rem', width: '95%', background: 'transparent'}}>
+    <li>
+        <a href="https://www.danrodney.com/mac/" style={{textDecoration: 'none'}}>Mac Keyboard Shortcuts</a>
+    </li>
+    <li>
+        <a href="https://osxdaily.com/2012/03/27/making-sense-of-mac-keyboard-symbols/" style={{textDecoration: 'none'}}>Making Sense of Mac Keyboard Symbols</a>
+    </li>
+    <li>
+        <a href="https://www.cnet.com/how-to/two-mac-keyboard-shortcuts-for-missing-home-and-end-keys/" style={{textDecoration: 'none'}}>Two Mac keyboard shortcuts for missing Home and End keys</a>
+    </li>
+</ul>
+
+---
+
+<h3 style={{width: '95%', textAlign: 'center'}}>Related Resources</h3>
+
+<ul style={{fontSize: '2rem', width: '95%', background: 'transparent'}}>
+    <li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf" style={{textDecoration: 'none'}}>Visual Studio Code Keyboard Shortcuts for macOS</a></li>
+</ul>
