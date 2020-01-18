@@ -1,22 +1,17 @@
 {
-    "name": "vscode-shortcuts",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "mdx-deck deck.mdx",
-        "build": "mdx-deck deck.mdx",
-        "pdf": "mdx-deck pdf deck.mdx",
-        "image": "mdx-deck screenshot deck.mdx",
-        "help": "mdx-deck",
-        "clean": "rm -rf dist",
-        "copy": "cp style.css dist",
-        "deploy": "gh-pages -d dist"
-    },
-    "author": "Maria D. Campbell",
-    "license": "ISC",
-    "devDependencies": {
-        "mdx-deck": "^3.0.13"
-    },
-    "dependencies": {}
+  "name": "vscode-shortcuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck"
+  },
+  "author": "Maria D. Campbell",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^3.0.13"
+  },
+  "dependencies": {}
 }
