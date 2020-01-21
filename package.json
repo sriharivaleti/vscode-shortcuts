@@ -6,6 +6,7 @@
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "build": "mdx-deck build deck.mdx",
+    "clean": "rm -rf public",
     "help": "mdx-deck"
   },
   "author": "Maria D. Campbell",
