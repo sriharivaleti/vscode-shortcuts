@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Visual Studio Code Shortcuts</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section class="section">
+                <h1 class="capitalize">Visual Studio Code Shortcuts</h1>
+                <p>
+                    A translation of the Visual Studio Code Keyboard Shortcuts for macOS Cheat
+                    Sheet
+                </p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Why This Translation?</h2>
+
+                <p>When I first came across the VSCode shortcut cheat sheet,
+                    I couldn't make out any of their <strong>gobbledy-gook</strong>. I'm referring to the shortcut
+                    symbols
+                    that appeared everywhere on the sheet with no explanation of what each represented.</p>
+                <p>I put together a translation of all the shortcuts
+                    represented in the
+                    VSCode cheat sheet. Enjoy!</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">About the translation</h2>
+                <p>Whenever you see the plus sign, it is just a replacement for <code>and then</code>. it is
+                    <em><strong>standard
+                            procedure</strong></em> in technical documentation.</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">General</h2>
+                <p><code>Shift + Command + P || F1 -</code> Show Command Palette</p>
+                <p><code>Command + P -</code> Quick Open, Go to File</p>
+                <p><code>Shift + Command + N -</code> New Window/Instance</p>
+                <p><code>Command + W -</code> Close Window/Instance</p>
+                <p><code>Command + , -</code> User Settings</p>
+                <p><code>Command + K Command + S -</code> Keyboard Shortcuts</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Basic Editing</h2>
+                <p><code>Command + X -</code> cut line (empty selection)</p>
+                <p><code>Command + C -</code> Copy Line (empty selection)</p>
+                <p><code>Option + Down Arrow/Option + Up Arrow -</code> Move line down/up</p>
+                <p><code>Shift + Option + Down Arrow/Shift + Option + Up Arrow -</code> Copy line down/up</p>
+                <p><code>Shift + Command + K -</code> Delete line</p>
+                <p><code>Command + Enter/ Shift + Command + Enter -</code> Insert line down/up</p>
+                <p><code>Shift + Command + \ -</code> Jump to matching bracket</p>
+                <p><code>Command + ]/Command + [ -</code> Indent/Outdent line</p>
+                <p><code>Home / End -</code> Go to beginning/end of line.</p>
+                <p><code>Command + Up Arrow -</code> go to the beginning of the file.</p>
+                <p><code>Command + Down Arrow -</code> go to the end of the file.</p>
+                <p><code>Option + Command + [ / Option + Command + ] -</code> Fold/Unfold region.</p>
+                <p><code>Command + K + Command + [ / Command + K + Command + ] -</code>
+                    Fold/Unfold all sub-regions.</p>
+                <p><code>Command + K + Command + 0 / Command + K + Command + J -</code>
+                    Fold/Unfold all regions.</p>
+                <p><code>Command + K + Command + C -</code> Add line comment.</p>
+                <p><code>Command + K + Command + U -</code> Remove line comment.</p>
+                <p><code>Command + / -</code> Toggle line comment.</p>
+                <p><code>Shift + Option + A -</code> Toggle block comment.</p>
+                <p><code>Option + Z -</code> Toggle word wrap</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Multi-Cursor and Selection</h2>
+                <p><code>Option + click -</code> Insert cursor.</p>
+                <p><code>Option + Command + Up Arrow -</code> Insert cursor above.</p>
+                <p><code>Option + Comment + Down Arrow -</code> Insert cursor
+                    below.</p>
+                <p><code>Command + U -</code> Undo last cursor operation.</p>
+                <p><code>Shift + Option -</code> Insert cursor at end of each line selected.</p>
+                <p><code>Command + L -</code> Select current line.</p>
+                <p><code>Shift + Command + L -</code> Select all occurrences of current
+                    selection.</p>
+                <p><code>Command + F2 -</code> Select all occurrences of current word.</p>
+                <p><code>Control + Shift + Command + Right Arrow/Left Arrow -</code>
+                    Expand/Shrink selection.</p>
+                <p><code>Shift + Option + Drag Mouse -</code> Column (box) selection.</p>
+                <p><code>Shift + Option + Command + Up Arrow/Down Arrow -</code> Column
+                    (box) selection
+                    up/down</p>
+                <p><code>Shift + Option + Command + Left Arrow/Right Arrow -</code> Column
+                    (box) selection
+                    left/right</p>
+                <p><code>Shift + Option + Command + PgUp -</code> Column (box) selection page up.</p>
+                <p><code>Shift + Option + Command + PgDn -</code> Column (box) selection page down.</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Search and Replace</h2>
+                <p><code>Command + F -</code> Find</p>
+                <p><code>Option + Command + F -</code> Replace</p>
+                <p><code>Command + G/Shift + Command + G -</code> Find next/previous.</p>
+                <p><code>Option + Enter -</code> Select all occurrences of Find match</p>
+                <p><code>Command + D -</code> Add selection to next Find match</p>
+                <p><code>Command + K + Command + D -</code> Move last selection to next Find match</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Rich Languages Editing</h2>
+                <p><code>Control + Space -</code> Trigger suggestion</p>
+                <p><code>Shift + Command + Space -</code> Trigger parameter hints</p>
+                <p><code>Shift + Option + F -</code> Format document</p>
+                <p><code>Command + K + Command + F -</code> Format selection</p>
+                <p><code>F12 -</code> Go to definition</p>
+                <p><code>Command + K + F12 -</code> Open definition in the side</p>
+                <p><code>Command -</code> Quick Fix</p>
+                <p><code>Shift F12 -</code> Show References</p>
+                <p><code>F2 -</code> Rename Symbol</p>
+                <p><code>Command + K + Command + X -</code> Trim trailing whitespace</p>
+                <p><code>Command + K + M -</code> Change file language</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Navigation</h2>
+                <p><code>Command + T -</code> Show all Symbols</p>
+                <p><code>Control + G -</code> Got to Line</p>
+                <p><code>Command + P -</code> Go to file</p>
+                <p><code>Shift + Command + O -</code> Go to Symbol</p>
+                <p><code>Shift + Command + M -</code> Show Problems panel</p>
+                <p><code>F8/Shift + F8 -</code> Go to next/previous error or warning</p>
+                <p><code>Control + hyphen/Control + Shift + hyphen -</code> Go back/go forward</p>
+                <p><code>Control + Shift + M -</code> Toggle Tab moves focus</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Editor Management</h2>
+                <p><code>Command + W -</code> Close editor</p>
+                <p><code>Command + K + F -</code> Close Folder</p>
+                <p><code>Command + \ -</code> Split editor</p>
+                <p><code>Command + 1 / Command + 2 / Command + 3 -</code> Focus into 1st, 2nd, 3rd editor group.</p>
+                <p><code>Command + K + Command + Left Arrow / Command + K + Command + Right Arrow -</code> focus into
+                    previous/next editor group.</p>
+                <p><code>Command + K + Shift + Command + Left Arrow / Command + K + Shift +
+                        Command + Right Arrow -</code> Move editor left/right</p>
+                <p><code>Command + K + Left Arrow / Command + K + Right Arrow -</code> Move
+                    active editor group</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">File Management</h2>
+                <p><code>Command + N -</code> New file</p>
+                <p><code>Command + O -</code> Open file</p>
+                <p><code>Command + S -</code> Save</p>
+                <p><code>Shift + Command + S -</code> Save as</p>
+                <p><code>Option + Command + S -</code> Save All</p>
+                <p><code>Command + K + Command + W -</code> Close All</p>
+                <p><code>Shift + Command + T -</code> Reopen closed editor</p>
+                <p><code>Command + K + Enter -</code> Keep preview mode editor open</p>
+                <p><code>Control + Tab / Control + Shift + Tab -</code> Open
+                    next/previous</p>
+                <p><code>Command + K + P -</code> Copy path of active file</p>
+                <p><code>Command + K + R -</code> Reveal active file in Finder</p>
+                <p><code>Command + K + O -</code> Show active file in new window/instance</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Display</h2>
+                <p><code>Control + Command + F -</code> Toggle full screen</p>
+                <p><code>Option + Command + 0 -</code> Toggle editor layout
+                    (horizontal/vertical)</p>
+                <p><code>Command + Equal/Shift + Command + Hyphen -</code> Zoom in/out</p>
+                <p><code>Command + B -</code> Toggle Sidebar visibility</p>
+                <p><code>Shift + Command + E -</code> Show Explorer/Toggle focus</p>
+                <p><code>Shift + Command + F -</code> Show Search</p>
+                <p><code>Control + Shift + G -</code> Show Source Control</p>
+                <p><code>Shift + Command + D -</code> Show Debug</p>
+                <p><code>Shift + Command + X -</code> Show Extensions</p>
+                <p><code>Shift + Command + H -</code> Replace in files</p>
+                <p><code>Shift + Command + F -</code> Show Search</p>
+                <p><code>Control + Shift + G -</code> Show Source Control</p>
+                <p><code>Shift + Command + D -</code> Show Debug</p>
+                <p><code>Shift + Command + X -</code> Show Extensions</p>
+                <p><code>Shift + Command + H -</code> Replace in files</p>
+                <p><code>Shift + Command + J -</code> Toggle Search details</p>
+                <p><code>Shift + Command + U -</code> Show Output Panel</p>
+                <p><code>Shift + Command + V -</code> Open Markdown preview</p>
+                <p><code>Command + K + Z -</code> Zen Mode (Esc Esc to exit)</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Debug</h2>
+                <p><code>F9 -</code> Toggle Breakpoint</p>
+                <p><code>F5 -</code> Start/Continue</p>
+                <p><code>F11/Shift + F11 -</code>Step into/out</p>
+                <p><code>F10 -</code> Step over</p>
+                <p><code>Shift + F5 -</code> Stop</p>
+                <p><code>Command + K + Command + I -</code> Show hover</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Integrated Terminal</h2>
+                <p><code>Control + backtick -</code> Show Integrated Terminal</p>
+                <p><code>Control + Shift + backtick -</code> Create new Terminal</p>
+                <p><code>Command + C -</code> Copy selection</p>
+                <p><code>Command + Up Arrow / Down Arrow -</code> Scroll up/down</p>
+                <p><code>PgUp/PgDn -</code> Scroll page up/down</p>
+                <p><code>Command + Home / End -</code> scroll to top/bottom</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Bonus: Command Key Translations (Mac)</h2>
+                <p><code>⌘ -</code> Command Key</p>
+                <p><code>⌥ -</code> Option Key</p>
+                <p><code>⌃ -</code> Control Key</p>
+                <p><code>⇧ -</code> Shift Key</p>
+                <p><code>⇪ -</code> Caps Lock Key</p>
+                <p><code>⌫ -</code> Backspace/Delete Key</p>
+                <p><code>⌦ -</code> Forward/Delete Key (fn + backspace)</p>
+                <p><code>⎋ -</code> Escape Key</p>
+                <p><code>← -</code> Left Arrow Key</p>
+                <p><code>→ -</code> Right Arrow Key</p>
+                <p><code>↑ -</code> Up Arrow Key</p>
+                <p><code>↓ -</code> Down Arrow Key</p>
+                <p><code>⇥ -</code> Tab Key</p>
+                <p><code>⇤ -</code> Back Tab Key (Shaft + Tab)</p>
+                <p><code>↩ -</code> Return Key</p>
+                <p><code>⌤ -</code> Enter Key</p>
+                <p><code>⇞ -</code> Page Up Key</p>
+                <p><code>⇟ -</code> Page Down Key</p>
+                <p><code>↖ -</code> Home</p>
+                <p><code>↘ -</code> End</p>
+                <p><code>⌧ -</code> Clear</p>
+                <p><code>␣ -</code> Space</p>
+                <p><code>⏏ -</code> Eject</p>
+                <p><code>fn -</code> Function Key</p>
+                <p><code>§ -</code> Section Mark</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">If You Don't Have <code>Home</code> and <code>End</code> Keys (I
+                    don't), Then You Can Do the Following:</h2>
+                <p><code>Fn + left arrow -</code> jump to top of the page</p>
+                <p><code>Fn + right arrow -</code> jump to end of the page
+                    <code>Command + down arrow key -</code> jump to end of page</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Bonus: Command Key Translations (Mac) Contd</h2>
+                <p><code>Command + up arrow key -</code> jump to top of page</p>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Related Links</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.danrodney.com/mac/">Mac Keyboard
+                            Shortcuts</a>
+                    </li>
+                    <li>
+                        <a href="https://osxdaily.com/2012/03/27/making-sense-of-mac-keyboard-symbols/">Making Sense of
+                            Mac Keyboard Symbols</a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnet.com/how-to/two-mac-keyboard-shortcuts-for-missing-home-and-end-keys/">Two
+                            Mac keyboard shortcuts for missing Home and End
+                            keys</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2 class="capitalize">Related Resources</h2>
+                <ul>
+                    <li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">Visual Studio
+                            Code Keyboard Shortcuts for macOS</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            hash: true,
+            dependencies: [{
+                    src: 'plugin/markdown/marked.js'
+                },
+                {
+                    src: 'plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'plugin/highlight/highlight.js'
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
